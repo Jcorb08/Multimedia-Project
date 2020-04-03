@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="Web Files/Style.css">
+<link rel="icon" href= "Images/Icon.png" >
+
+<title>Orbit - Animation</title>
+</head>
+
+<body> 
+
+<div id = "navheader" class="navheader">
+    <img src="Images/Logo.png">
+    <a href= "Orbit.html" onclick = "home()">Home</a>
+    <a href="Greeting.html" onclick="greeting()">Greeting</a> 
+    <a href="Hobbies.html" onclick="hobbies()">Hobbies</a>
+    <a href="Coursework.html" onclick="coursework()">Coursework</a> 
+    <a href="Sources.html" onclick="sources()">Sources</a>
+    <a href="Animation.html" onclick="animation()">Animation</a>
+    <a href="javascript:void(0)" class = "closebtn" onclick="navClose()"> ⌘ Close  </a>
+</div>
+
+<div class = "wrap">
+
+    <div id = "animation">
+
+        <div id="openbtn" class="openbtn" class="navheader">
+                <a href="javascript:void(0)" onclick="navOpen()"> ⌘ </a>
+        </div>
+            
+        <h1>Animation</h1>
+
+        <p>
+            Hover in and out of the animation to trigger the fire from the rockets!
+        </p>
+
+        <div id = "canvas">
+        </div> 
+
+    </div>
+</div>
+
+<script src="Web Files/raphael.min.js" type="text/javascript"></script>
+<script src="Web Files/Animation.js" type="text/javascript"></script>
+<script src="Web Files/Page.js" type = "text/javascript"></script>
+</body>
+
+</html>
